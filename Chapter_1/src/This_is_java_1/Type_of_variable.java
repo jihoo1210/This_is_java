@@ -39,7 +39,7 @@ public class Type_of_variable {
 		double i1 = 5.5;
 		double result0 = i0 + i1;
 		int result1 = i0 + (int)i1;
-		System.out.println("result0 =" + result0 +"\t"+ "result1 =" + result1);
+		System.out.println("result0 =" + result0 +"\t"+  "result1 =" + result1);
 		byte j0 = 10;
 		float j1 = 2.5F;
 		double j2 = 2.5;

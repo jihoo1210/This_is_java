@@ -31,5 +31,42 @@ public class Operations {
 	char b6 = 'A' +1;
 	char b7 = (char)(b6 + 1);
 	System.out.println(b7);
+	//문자열 연결 연산자
+	String e1 = "String" + 1.0;
+	String e2 = e1 + 5;
+	System.out.println(e2);
+	String e3 = 3 + 3.0 + "String";
+	String e4 = "String" + 3 + 3.0;
+	System.out.println("e3 = " + e3  + '\t' +  '\t' + "e4 = " + e4);
+	//비교 연산자
+	char f1 = 'A';
+	char f2 = 'B';
+	System.out.println( f1 > f2);
+	String f3 = "jihoo";
+	String f4 = new String("jihoo");
+	System.out.println(f3 == f4);
+	System.out.println(f3.equals(f4));
+	// 논리 연산자
+	int g1 = 10;
+	int g2 = 5;
+	System.out.println("-----------------");
+	System.out.println(g1 > g2 && g1 < g2);
+	System.out.println(g1 > g2 || g1 < g2);
+	System.out.println(g1 > g2 ^ g1 < g2);
+	System.out.println(g1 > g2 && !(g1 < g2));
+	// ---
+	// 비트 연산자
+	System.out.println(45 & 25);
+	System.out.println(45 | 25);
+	System.out.println(45 ^ 25);
+	System.out.println(~45);
+	System.out.println(5 << 3);
+	System.out.println(5 >> 3);
+	System.out.println(-5 >>> 3);
+	//대입 연산자
+	char h1 = 10;
+	h1 |= 5;
+	System.out.println((int)h1);
+	System.out.println(h1);
 }
 }
