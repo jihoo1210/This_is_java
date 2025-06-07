@@ -1,7 +1,7 @@
 package This_is_java_1;
 import java.util.Scanner;
 
-public class Conditional_statement_and_loop_2 {
+public class Conditional_statement_and_loop_2  {
 	//do-while
 	public static void main(String[] args) {
 		System.out.println("메세지를 입력하세요.");
